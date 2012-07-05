@@ -1,4 +1,0 @@
-ChatServer = function()
-{
-	
-}; 
