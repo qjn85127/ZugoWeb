@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<script type="text/javascript" src="js/Library/Lib.js"></script>
+    <title>Zugo Photonics</title>
+    <link rel="shortcut icon" href="resource/favicon.ico">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"> 
+  </head>
+  	
+  <body>
+  	<embed src="Resource/GENTEC.pdf" id="pdf"/>
+  	<script type="text/javascript">
+  		var parameter = Lib.ParseParameter("source", window.location.href);
+  		var pdf = document.getElementById("pdf");
+	  		pdf.width = window.innerWidth-40; 
+	  		pdf.height = window.innerHeight-20;
+	  		pdf.src = "Resource/Brochures/"+parameter+".pdf";
+  		window.onresize = onResize;
+  	    function onResize(event)
+  		{
+	  		var pdf = document.getElementById("pdf");
+	  		pdf.width = window.innerWidth-40; 
+	  		pdf.height = window.innerHeight-20;
+  		};
+  	</script>
+  </body>
+</html>

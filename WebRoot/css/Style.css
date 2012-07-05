@@ -1,0 +1,175 @@
+@CHARSET "ISO-8859-1";
+
+.body{
+	height:100%;
+	background-color:black;
+}
+.laader{
+	display:block; 
+	position: relative;
+	margin: auto auto auto auto; 
+	background-color:black; 
+	height:100%;
+	color:white; 
+}
+
+.loader-img{
+	display:block;
+	position:relavtive;
+	width:390px;
+	height: 267px;
+	margin:auto auto auto auto; 
+}
+
+.loader-text{
+	display:inline-block;
+	width:100%;
+	color: white; 
+	font-family: sans-serif;
+	font-size : 19px; 
+	text-align: center;
+}
+
+.loader-bar{
+	display:inline-block;
+	position:relative;
+	width: 50%;
+	text-align:left; 
+	box-shadow:0px 0px 0px 1px #ffffff;
+	left:25%;
+	height:25px; 
+}
+
+.loader-bar-data{
+	display:inline-block;
+	position:relative;
+	
+	background-color:#00AEFF; 
+	height:25px;
+	padding-tpp:-2px;
+}
+
+
+.information-Border
+{
+  display:block;
+  position:absolute;
+  width:200px;
+  height:auto;
+  border-radius:4px; 
+  background-color: white;
+  opacity: 1;
+  z-index: 1;
+  font-family: Arial;
+  box-shadow:0px 0px 0px 4px rgba(250,250,250, 25);
+}
+
+.information-Image
+{
+	position:relative;
+	background-color: black;
+	box-shadow:0px 0px 0px 4px rgba(250,250,250, 25);
+	border-radius:2px; 
+	width: auto;
+	height: auto;
+	opacity: 1; 
+	top: -12px;
+}
+
+.information-Title
+{
+	  position: relative;
+	  font-weight: normal;
+	  display: block; 
+	  margin: 2px, 0px, 0px, 2px; 
+	  text-align: center; 
+	  color: #222222; 
+	  font-size: 16px;
+	  top:-12px;
+	  box-shadow:0px 2px 0px 0px #000000;
+}
+
+.information-Description
+{
+	  position:relative;
+	  text-align: center;
+	  font-style:italic; 
+	  font-size:  12px;
+	  margin: 15px, 0px, 0px, 0px;
+	  color: #000000;  
+	  top: -12px;
+}
+
+.information-ActionLink
+{
+	position: relative;
+	font-size: 12px;
+	width:24px;
+	height:24px;
+	margin: 4px 8px auto auto;
+	background-color: #aaaaaa;
+	display: inline-block;
+	
+	box-shadow:0px 0px 2px 2px rgba(0, 0, 100, 50);
+}
+.information-ActionLink:hover
+{
+	box-shadow:2px 2px 2px 2px rgba(0, 0, 100, 50);
+	background-color: #ffffff;
+}
+
+.panel-Close{
+  	position:absolute;
+	display: block;
+	left: 190px;
+	top: 2px;
+	width: 10px; 
+	height: 10px;
+}
+
+.panel-Close:hover{
+	box-shadow:1px 1px 2px 2px #333333; 
+	background-color: rgba(186, 186, 186, 100);
+}
+
+.inforhandler-Panel
+{
+	padding-left : 5px;
+	padding-right : 5px;
+	color: #000000; 
+	font-size: 12px; 
+	font-family: sans-serif; 
+	color: white;
+	
+}
+
+.inforhandler-Boarder
+{
+	display:block;
+  	position:absolute;
+	box-shadow:0px 0px 0px 1px #ffffff; 
+	background-color: #000000;
+	height: 22px; 
+}
+
+.scene-Canvas
+{	
+  display:block;
+  position: relative;
+  background-color:black;
+  margin-left:auto; 
+  margin-right:auto;
+  margin-bottom:auto;
+}
+
+.video-Canvas
+{
+	display:block; 
+	background-color:black; 
+}
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+ChatServer = function()
+{
+	
+}; 

@@ -1,0 +1,244 @@
+@CHARSET "ISO-8859-1";
+
+.cfg-main{
+  	background-color:black;
+	color: white; 
+	display:block;
+	position:absolute; 
+	left: 0px;
+	top: 0px; 
+	font-family: sans-serif;
+	font-size: 12px; 
+	width: 250px; 
+}
+
+.cfg-block{
+	box-shadow:1px 1px 0px 0px #FFFFFF;
+	height : 25px; 
+	overflow-y:hidden;
+}
+
+.cfg-closeButtonBorder{
+	box-shadow:0px 0px 0px 1px #FFFFFF;
+	height : 25px; 
+	overflow-y:hidden;
+}
+
+.cfg-valueBar{
+	display:block; 
+	position: relative;
+	top: 0px;
+	box-shadow:0px 0px 0px 1px #ffffff;
+	height : 25px; 
+	padding-top : 2px;
+	
+}
+
+.cfg-valueBar-text{
+	width: 35px; 
+	display : block;
+	position : relative;
+	float: right; 
+	height: 20px;
+	right: 0px;
+	background-color: black; 
+	color : #00AEFF;
+	padding-top: 3px;  
+}
+
+.cfg-valueBar-title{
+	display:block; 
+	padding-top: 3px; 
+	padding-left : 5px; 
+	width: 100px; 
+	color: white; 
+	position: static; 
+	float: left;
+}
+
+.cfg-valueBar-data{
+	cursor: ew-resize;
+	position: relative;
+	display:block;
+	width : 100px;
+	float: center;
+	overflow-x: visible;
+	overflow-y: visible;
+	margin-left: 100px; 
+	background-color: black; 
+	box-shadow:0px 0px 0px 1px #555555;
+	height: 23 px;
+}
+.cfg-valueBar-data:hover{
+	background-color: #555555; 
+}
+
+.cfg-valueBar-dataValue{
+	background-color: #00AEFF;
+	position:relative; 
+	display:block;
+	width: 20px; 
+	height: 23px;
+}
+
+.cfg-closeButton{
+	display:block; 
+	cursor: pointer;
+	padding-top: 5px; 
+	color: white; 
+	position: static; 
+	text-align:center; 
+	float: center;
+	height: 25px;
+}
+
+.cfg-closeButton:hover{
+	background-color: #555555; 
+	color: black;
+}
+
+.cfg-switchButton{
+	text-align:center;	
+	padding-top: 5px; 
+	box-shadow:0px 0px 0px 1px #FFFFFF;
+	height : 22px; 
+	overflow-y:hidden;
+	cursor: pointer;
+}
+
+.product-button{
+	cursor: pointer; 
+	display: block; 
+	height: 25px; 
+	padding-top: 5px; 
+	color : white; 
+	position: static; 
+	text-align:center; 
+	float: center;
+	background-color: black; 
+}
+
+.product-button:hover{
+	background-color: #555555; 
+}
+
+.productPanel-main{
+  	background-color:black;
+	color: white; 
+	display:block;
+	position:absolute; 
+	left:251px;
+	top: 0px; 
+	font-family: sans-serif;
+	font-size: 12px; 
+	width: 200px; 
+}
+
+.chatServer-main{
+	background-color:black; 
+	right:0px; 
+	bottom: 0px;
+	position:fixed; 
+	width : 250px;  
+	font-family: sans-serif;
+	box-shadow:0px 0px 0px 1px #FFFFFF;
+	font-size: 12px; 
+	color: white; 
+}
+
+.chatServer-history{
+	height: 100px;
+	width: 246px;  
+	background-color : black; 
+	
+	color: white; 
+}
+
+.charServer-sendText{
+	width: 150px; 
+	left: 5px; 
+	position: relative; 
+}
+
+.chatServer-sendButton{
+	width : 60px; 
+	position: fixed;
+	right:10px; 
+	color:black;
+}
+
+.descPanel-main{
+	display: block; 
+	position:absolute;
+	background-color:black;
+	color: white; 
+	font-family: sans-serif;
+	font-size: 12px; 
+	width: 200px; 
+}
+
+.descPanel-title{
+	padding-top: 2px; 
+	text-align: center; 
+	font-size: 16px;
+	height: 23px;
+	display: block;
+	width: 200px;
+	box-shadow:0px 2px 0px 0px #ffffff;
+}
+
+.descPanel-Text{
+	text-algin: left; 
+	display:block;
+	position: relative; 
+	top: -5px; 
+	font-style:italic; 
+	padding-bottom: 4px; 
+}
+
+.zugoPanel-main{
+	background-color:black;
+	color: white; 
+	position:fixed; 
+	right:0px;
+	top: 0px; 
+	display:block;
+	font-family: sans-serif;
+	font-size: 12px; 
+	width: 320px; 
+	box-shadow:0px 0px 0px 1px #ffffff;
+}
+
+.zugoPanel-img{
+	position:relative;
+	padding-top : 2px; 
+	display:block;
+	left : 50px; 
+	width: 220px;
+	height: 150px;  
+	cursor: pointer;
+}
+
+.zugoPanel-link{
+	text-align:center; 
+	display:block; 
+	width: 320px; 
+	cursor : pointer; 
+}
+
+.zugoPanel-address{
+	text-align:center; 
+	font-style: italic; 
+	fonty-size: 12px;
+	display:block; 
+	width: 320px; 
+	cursor : pointer; 
+}
+
+.zugoPanel-email{
+	text-align:center; 
+	display:block; 
+	width: 320px; 
+}
+
+
